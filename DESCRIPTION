@@ -1,0 +1,23 @@
+Package: gswep4r
+Type: Package
+Title: Demo package from the GSWEP4R pre-conference course at ISCB 2025
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Nicole", "Erler",
+      email = "n.s.erler@umcutrecht.nl",
+      role = c("aut", "cre")
+    )
+  )
+Description: I'm not actually sure yet, what this package will to. But if my
+    description gets longer than one line, I'll make sure the following lines
+    will be indented.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: checkmate
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
